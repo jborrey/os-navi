@@ -16,7 +16,7 @@ If you have a question about an OS which is not represented here you might still
 
 ### Copy an OS
 
-```
+```bash
 # start log file
 host> mkdir debian
 host> echo $'=== COPY SCRIPT ===\n' > debian/log.txt
@@ -36,7 +36,9 @@ container> { time ls -A | xargs -n 1 ./os-navi/copy_system.sh /os-navi/debian; }
 # to record the copy script
 host> cp copy_system.sh debian/copy_system.sh
 
-host> echo $'=== CLEAN SCRIPT ===\n' >> debian/log.txt
-
+# remove files too large for Github
+host> echo $'\n=== CLEAN SCRIPT ===\n' >> debian/log.txt
 host> ./clean_os.sh debian | tee -a debian/log.txt
+
+# submit pull request
 ```
