@@ -1,0 +1,13 @@
+-rw-r--r-- 1 root root 0 Jul 19 08:48 sys/fs/cgroup/net_prio/net_prio.ifpriomap
+
+lo 0
+bond0 0
+dummy0 0
+eth0 0
+teql0 0
+sit0 0
+ip6tnl0 0
+ip6gre0 0
+docker0 0
+br-4fd79f4ed31e 0
+veth61d6866 0

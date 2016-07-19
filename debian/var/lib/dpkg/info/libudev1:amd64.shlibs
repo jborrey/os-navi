@@ -1,0 +1,4 @@
+-rw-r--r-- 1 root root 49 Mar 12 12:46 var/lib/dpkg/info/libudev1:amd64.shlibs
+
+libudev 1 libudev1
+udeb: libudev 1 libudev1-udeb

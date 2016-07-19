@@ -1,0 +1,19 @@
+-r--r--r-- 1 root root 0 Jul 19 08:47 proc/misc
+
+ 57 memory_bandwidth
+ 58 network_throughput
+ 59 network_latency
+ 60 cpu_dma_latency
+184 microcode
+ 61 vsock
+223 uinput
+  1 psaux
+200 tun
+237 loop-control
+183 hw_random
+144 nvram
+228 hpet
+203 cuse
+229 fuse
+ 62 cachefiles
+ 63 vga_arbiter

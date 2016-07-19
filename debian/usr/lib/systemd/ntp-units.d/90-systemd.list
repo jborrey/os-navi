@@ -1,0 +1,3 @@
+-rw-r--r-- 1 root root 26 Mar 12 12:46 usr/lib/systemd/ntp-units.d/90-systemd.list
+
+systemd-timesyncd.service

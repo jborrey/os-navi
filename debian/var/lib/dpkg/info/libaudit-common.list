@@ -1,0 +1,15 @@
+-rw-r--r-- 1 root root 299 Jun 8 16:28 var/lib/dpkg/info/libaudit-common.list
+
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libaudit-common
+/usr/share/doc/libaudit-common/changelog.gz
+/usr/share/doc/libaudit-common/changelog.Debian.gz
+/usr/share/doc/libaudit-common/copyright
+/usr/share/man
+/usr/share/man/man5
+/usr/share/man/man5/libaudit.conf.5.gz
+/etc
+/etc/libaudit.conf

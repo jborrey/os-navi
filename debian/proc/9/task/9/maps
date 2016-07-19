@@ -1,0 +1,21 @@
+-r--r--r-- 1 root root 0 Jul 19 08:46 proc/9/task/9/maps
+
+00400000-0040a000 r-xp 00000000 00:29 68                                 /usr/bin/xargs
+00609000-0060a000 r--p 00009000 00:29 68                                 /usr/bin/xargs
+0060a000-0060b000 rw-p 0000a000 00:29 68                                 /usr/bin/xargs
+017f6000-01817000 rw-p 00000000 00:00 0                                  [heap]
+7f77a6a86000-7f77a6c28000 r-xp 00000000 00:29 36                         /lib/x86_64-linux-gnu/libc-2.19.so
+7f77a6c28000-7f77a6e27000 ---p 001a2000 00:29 36                         /lib/x86_64-linux-gnu/libc-2.19.so
+7f77a6e27000-7f77a6e2b000 r--p 001a1000 00:29 36                         /lib/x86_64-linux-gnu/libc-2.19.so
+7f77a6e2b000-7f77a6e2d000 rw-p 001a5000 00:29 36                         /lib/x86_64-linux-gnu/libc-2.19.so
+7f77a6e2d000-7f77a6e31000 rw-p 00000000 00:00 0 
+7f77a6e31000-7f77a6e51000 r-xp 00000000 00:29 27                         /lib/x86_64-linux-gnu/ld-2.19.so
+7f77a7029000-7f77a704d000 rw-p 00000000 00:00 0 
+7f77a704e000-7f77a7051000 rw-p 00000000 00:00 0 
+7f77a7051000-7f77a7052000 r--p 00020000 00:29 27                         /lib/x86_64-linux-gnu/ld-2.19.so
+7f77a7052000-7f77a7053000 rw-p 00021000 00:29 27                         /lib/x86_64-linux-gnu/ld-2.19.so
+7f77a7053000-7f77a7054000 rw-p 00000000 00:00 0 
+7ffe174ca000-7ffe174eb000 rw-p 00000000 00:00 0                          [stack]
+7ffe175d4000-7ffe175d6000 r--p 00000000 00:00 0                          [vvar]
+7ffe175d6000-7ffe175d8000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]

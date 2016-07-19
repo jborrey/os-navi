@@ -1,0 +1,13 @@
+-rw-r--r-- 1 root root 225 Jun 8 16:28 var/lib/dpkg/info/libss2:amd64.list
+
+/.
+/lib
+/lib/x86_64-linux-gnu
+/lib/x86_64-linux-gnu/libss.so.2.0
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libss2
+/usr/share/doc/libss2/changelog.Debian.gz
+/usr/share/doc/libss2/copyright
+/lib/x86_64-linux-gnu/libss.so.2

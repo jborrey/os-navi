@@ -1,0 +1,5 @@
+-rw-r--r-- 1 root root 327 Mar 22 2014 usr/lib/mime/packages/tar
+
+application/x-tar; /bin/tar tvf '%s'; print=/bin/tar tvf - | print text/plain:-; copiousoutput ; priority=1
+application/x-gtar; /bin/tar tvf '%s'; print=/bin/tar tvf - | print text/plain:-; copiousoutput ; priority=1
+application/x-ustar; /bin/tar tvf '%s'; print=/bin/tar tvf - | print text/plain:-; copiousoutput ; priority=1

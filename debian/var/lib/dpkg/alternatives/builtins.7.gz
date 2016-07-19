@@ -1,0 +1,8 @@
+-rw-r--r-- 1 root root 83 Jun 8 16:29 var/lib/dpkg/alternatives/builtins.7.gz
+
+auto
+/usr/share/man/man7/builtins.7.gz
+
+/usr/share/man/man7/bash-builtins.7.gz
+10
+

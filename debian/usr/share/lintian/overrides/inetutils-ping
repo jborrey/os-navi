@@ -1,0 +1,4 @@
+-rw-r--r-- 1 root root 109 Oct 30 2011 usr/share/lintian/overrides/inetutils-ping
+
+inetutils-ping: setuid-binary bin/ping 4755 root/root
+inetutils-ping: setuid-binary bin/ping6 4755 root/root

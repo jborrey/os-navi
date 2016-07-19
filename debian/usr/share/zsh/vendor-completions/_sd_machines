@@ -1,0 +1,15 @@
+-rw-r--r-- 1 root root 318 Mar 12 12:46 usr/share/zsh/vendor-completions/_sd_machines
+
+#autoload
+__get_machines () {
+        machinectl --full --no-legend --no-pager list |  {while read -r a b; do echo $a; done;};
+}
+
+local -a _machines
+_machines=("${(fo)$(__get_machines)}")
+typeset -U _machines
+if [[ -n "$_machines" ]]; then
+        _describe 'machines' _machines
+else
+        _message 'no machines'
+fi

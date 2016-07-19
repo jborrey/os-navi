@@ -1,0 +1,14 @@
+-rwxr-xr-x 1 root root 133 Nov 30 2014 var/lib/dpkg/info/debian-archive-keyring.postrm
+
+#!/bin/sh
+
+set -e
+
+if [ "$1" = "purge" ]
+then
+  # Remove the symlink
+  rm -f /etc/apt/trusted.gpg.d/debian-archive-keyring.gpg
+fi
+
+
+

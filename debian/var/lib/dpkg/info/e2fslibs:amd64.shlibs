@@ -1,0 +1,4 @@
+-rw-r--r-- 1 root root 39 Feb 25 2015 var/lib/dpkg/info/e2fslibs:amd64.shlibs
+
+libe2p 2 e2fslibs
+libext2fs 2 e2fslibs

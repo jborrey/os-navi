@@ -1,0 +1,4 @@
+-rw-r--r-- 1 root root 49 Nov 23 2012 var/lib/dpkg/info/insserv.conffiles
+
+/etc/bash_completion.d/insserv
+/etc/insserv.conf

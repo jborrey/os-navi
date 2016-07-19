@@ -1,0 +1,13 @@
+-rw-r--r-- 1 root root 247 Jun 8 16:28 var/lib/dpkg/info/libcomerr2:amd64.list
+
+/.
+/lib
+/lib/x86_64-linux-gnu
+/lib/x86_64-linux-gnu/libcom_err.so.2.1
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libcomerr2
+/usr/share/doc/libcomerr2/changelog.Debian.gz
+/usr/share/doc/libcomerr2/copyright
+/lib/x86_64-linux-gnu/libcom_err.so.2

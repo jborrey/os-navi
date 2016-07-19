@@ -1,0 +1,11 @@
+-rwxr-xr-x 1 root root 92 Jan 7 2016 var/lib/dpkg/info/libpam-runtime.prerm
+
+#!/bin/sh
+
+set -e
+
+if [ "$1" = remove ]; then
+	pam-auth-update --package --remove unix
+fi
+
+

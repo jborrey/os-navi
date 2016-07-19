@@ -1,0 +1,9 @@
+-rw-r--r-- 1 root root 117 Jun 8 16:28 var/lib/dpkg/info/init.list
+
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/init
+/usr/share/doc/init/copyright
+/usr/share/doc/init/changelog.gz

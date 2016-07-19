@@ -1,0 +1,7 @@
+-rw-r--r-- 1 root root 61 Mar 12 12:46 usr/share/pkgconfig/udev.pc
+
+Name: udev
+Description: udev
+Version: 215
+
+udevdir=/lib/udev

@@ -1,0 +1,10 @@
+-r-------- 1 root root 0 Jul 19 08:46 proc/7/task/7/stack
+
+[<ffffffff81142ea7>] pipe_wait+0x5c/0x76
+[<ffffffff81095eca>] autoremove_wake_function+0x0/0x2a
+[<ffffffff81143430>] pipe_read+0x1b5/0x224
+[<ffffffff8113cdbf>] new_sync_read+0x5a/0x76
+[<ffffffff8113d1b1>] vfs_read+0x7c/0x9b
+[<ffffffff8113d8d1>] SyS_read+0x48/0x73
+[<ffffffff8168366e>] entry_SYSCALL_64_fastpath+0x12/0x71
+[<ffffffffffffffff>] 0xffffffffffffffff

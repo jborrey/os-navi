@@ -1,0 +1,6 @@
+-rw-r--r-- 1 root root 75 Jun 8 16:29 var/lib/pam/session-noninteractive
+
+Module: null
+[default=1]			pam_permit.so
+Module: unix
+required	pam_unix.so

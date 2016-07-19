@@ -1,0 +1,4 @@
+-rw-r--r-- 1 root root 4096 Jul 19 06:52 sys/devices/pci0000:00/0000:00:06.0/virtio4/uevent
+
+DRIVER=9pnet_virtio
+MODALIAS=virtio:d00000009v00001AF4

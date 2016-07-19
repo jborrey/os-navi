@@ -1,0 +1,3 @@
+-r--r--r-- 1 root root 4096 Jul 19 06:52 sys/devices/platform/pcspkr/input/input1/modalias
+
+input:b0010v001Fp0001e0100-e0,12,kramls1,2,fw

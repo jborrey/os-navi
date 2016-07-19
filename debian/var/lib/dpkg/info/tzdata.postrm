@@ -1,0 +1,10 @@
+-rwxr-xr-x 1 root root 206 Apr 22 13:33 var/lib/dpkg/info/tzdata.postrm
+
+#!/bin/sh
+set -e
+# Automatically added by dh_installdebconf
+if [ "$1" = purge ] && [ -e /usr/share/debconf/confmodule ]; then
+	. /usr/share/debconf/confmodule
+	db_purge
+fi
+# End automatically added section

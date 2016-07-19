@@ -1,0 +1,10 @@
+-rw-r--r-- 1 root root 209 Jun 8 16:28 var/lib/dpkg/info/multiarch-support.list
+
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/multiarch-support
+/usr/share/doc/multiarch-support/changelog.Debian.gz
+/usr/share/doc/multiarch-support/changelog.gz
+/usr/share/doc/multiarch-support/copyright

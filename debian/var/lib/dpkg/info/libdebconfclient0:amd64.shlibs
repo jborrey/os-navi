@@ -1,0 +1,4 @@
+-rw-r--r-- 1 root root 85 Sep 10 2014 var/lib/dpkg/info/libdebconfclient0:amd64.shlibs
+
+libdebconfclient 0 libdebconfclient0
+udeb: libdebconfclient 0 libdebconfclient0-udeb

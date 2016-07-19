@@ -1,0 +1,12 @@
+lrwxrwxrwx 1 root root 23 Mar 12 12:46 lib/systemd/system/getty.target.wants/getty-static.service -> ../getty-static.service
+
+[Unit]
+Description=getty on tty2-tty6 if dbus and logind are not available
+ConditionPathExists=/dev/tty2
+ConditionPathExists=!/lib/systemd/system/dbus.service
+
+[Service]
+Type=oneshot
+ExecStart=/bin/systemctl --no-block start getty@tty2.service getty@tty3.service getty@tty4.service getty@tty5.service getty@tty6.service
+RemainAfterExit=true
+

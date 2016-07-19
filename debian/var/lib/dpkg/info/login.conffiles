@@ -1,0 +1,6 @@
+-rw-r--r-- 1 root root 62 Nov 18 2015 var/lib/dpkg/info/login.conffiles
+
+/etc/login.defs
+/etc/pam.d/login
+/etc/pam.d/su
+/etc/securetty

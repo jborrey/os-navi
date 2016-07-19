@@ -1,0 +1,4 @@
+-r--r--r-- 1 root root 0 Jul 19 08:48 sys/fs/cgroup/memory/memory.kmem.slabinfo
+
+slabinfo - version: 2.1
+# name            <active_objs> <num_objs> <objsize> <objperslab> <pagesperslab> : tunables <limit> <batchcount> <sharedfactor> : slabdata <active_slabs> <num_slabs> <sharedavail>

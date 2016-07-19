@@ -1,0 +1,21 @@
+lrwxrwxrwx 1 root root 31 Mar 12 12:46 lib/systemd/system/sockets.target.wants/systemd-udevd-control.socket -> ../systemd-udevd-control.socket
+
+#  This file is part of systemd.
+#
+#  systemd is free software; you can redistribute it and/or modify it
+#  under the terms of the GNU Lesser General Public License as published by
+#  the Free Software Foundation; either version 2.1 of the License, or
+#  (at your option) any later version.
+
+[Unit]
+Description=udev Control Socket
+Documentation=man:systemd-udevd.service(8) man:udev(7)
+DefaultDependencies=no
+Before=sockets.target
+ConditionPathIsReadWrite=/sys
+
+[Socket]
+Service=systemd-udevd.service
+ListenSequentialPacket=/run/udev/control
+SocketMode=0600
+PassCredentials=yes

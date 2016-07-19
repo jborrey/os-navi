@@ -1,0 +1,20 @@
+-r--r--r-- 1 root root 0 Jul 19 08:47 proc/pagetypeinfo
+
+Page block order: 9
+Pages per block:  512
+
+Free pages count per migrate type at order       0      1      2      3      4      5      6      7      8      9     10 
+Node    0, zone      DMA, type    Unmovable      3      2      2      1      1      1      0      0      1      0      0 
+Node    0, zone      DMA, type      Movable     23    105     40     39     16      0      1      1      0      1      0 
+Node    0, zone      DMA, type  Reclaimable     15     15     18     15      7      2      1      0      0      1      0 
+Node    0, zone      DMA, type   HighAtomic      0      0      0      0      0      0      0      0      0      0      0 
+Node    0, zone      DMA, type      Isolate      0      0      0      0      0      0      0      0      0      0      0 
+Node    0, zone    DMA32, type    Unmovable    196    302     58    215     62     37     12      1      0      0      0 
+Node    0, zone    DMA32, type      Movable   6283  11897  15232   9916   5561   1698    380      8      1      1      2 
+Node    0, zone    DMA32, type  Reclaimable   2421    816    187     59     41     10      0      0      0      0      0 
+Node    0, zone    DMA32, type   HighAtomic     16     13     17     13      5      4      1      0      0      0      0 
+Node    0, zone    DMA32, type      Isolate      0      0      0      0      0      0      0      0      0      0      0 
+
+Number of blocks type     Unmovable      Movable  Reclaimable   HighAtomic      Isolate 
+Node 0, zone      DMA            1            5            2            0            0 
+Node 0, zone    DMA32           33          949           33            1            0 

@@ -1,0 +1,13 @@
+-rw-r--r-- 1 root root 174 Mar 29 2015 usr/share/doc/util-linux/examples/fstrim.timer
+
+[Unit]
+Description=Discard unused blocks once a week
+Documentation=man:fstrim
+
+[Timer]
+OnCalendar=weekly
+AccuracySec=1h
+Persistent=true
+
+[Install]
+WantedBy=multi-user.target

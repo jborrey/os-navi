@@ -1,0 +1,19 @@
+-rw-r--r-- 1 root root 0 Jul 19 08:46 proc/3857/task/3857/sched
+
+copy_system.sh (22065, #threads: 1)
+-------------------------------------------------------------------
+se.exec_start                                :     304521235.022783
+se.vruntime                                  :         30222.456437
+se.sum_exec_runtime                          :          4942.498738
+nr_switches                                  :                84144
+nr_voluntary_switches                        :                38520
+nr_involuntary_switches                      :                45624
+se.load.weight                               :                 1024
+se.avg.load_sum                              :              7294398
+se.avg.util_sum                              :              6645667
+se.avg.load_avg                              :                  143
+se.avg.util_avg                              :                  130
+se.avg.last_update_time                      :      304521235022783
+policy                                       :                    0
+prio                                         :                  120
+clock-delta                                  :                   52

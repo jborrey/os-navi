@@ -1,0 +1,16 @@
+-rw-r--r-- 1 root root 319 Jun 8 16:28 var/lib/dpkg/info/lsb-base.list
+
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/lsb-base
+/usr/share/doc/lsb-base/changelog.gz
+/usr/share/doc/lsb-base/copyright
+/usr/share/doc/lsb-base/README.Debian.gz
+/usr/share/doc/lsb-base/NEWS.Debian.gz
+/lib
+/lib/lsb
+/lib/lsb/init-functions
+/lib/lsb/init-functions.d
+/lib/lsb/init-functions.d/20-left-info-blocks

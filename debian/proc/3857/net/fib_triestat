@@ -1,0 +1,23 @@
+-r--r--r-- 1 root root 0 Jul 19 08:48 proc/3857/net/fib_triestat
+
+Basic info: size of leaf: 48 bytes, size of tnode: 40 bytes.
+Main:
+	Aver depth:     2.42
+	Max depth:      3
+	Leaves:         7
+	Prefixes:       9
+	Internal nodes: 5
+	  1: 1  2: 3  3: 1
+	Pointers: 22
+Null ptrs: 11
+Total size: 2  kB
+Local:
+	Aver depth:     2.42
+	Max depth:      3
+	Leaves:         7
+	Prefixes:       9
+	Internal nodes: 5
+	  1: 1  2: 3  3: 1
+	Pointers: 22
+Null ptrs: 11
+Total size: 2  kB

@@ -1,0 +1,3 @@
+-rw-r--r-- 1 root root 37 May 23 23:13 var/lib/dpkg/info/perl-base.shlibs
+
+libperl 5.20 libperl5.20 (>= 5.20.2)

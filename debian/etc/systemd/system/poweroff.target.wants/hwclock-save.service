@@ -1,0 +1,17 @@
+lrwxrwxrwx 1 root root 40 Jun 8 16:29 etc/systemd/system/poweroff.target.wants/hwclock-save.service -> /lib/systemd/system/hwclock-save.service
+
+[Unit]
+Description=Synchronise Hardware Clock to System Clock
+DefaultDependencies=no
+Before=shutdown.target
+ConditionFileIsExecutable=!/usr/sbin/ntpd
+ConditionFileIsExecutable=!/usr/sbin/openntpd
+ConditionFileIsExecutable=!/usr/sbin/chrony
+ConditionVirtualization=!container
+
+[Service]
+Type=oneshot
+ExecStart=/sbin/hwclock -D --systohc
+
+[Install]
+WantedBy=reboot.target halt.target poweroff.target

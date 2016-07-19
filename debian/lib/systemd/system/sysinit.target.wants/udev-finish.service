@@ -1,0 +1,11 @@
+lrwxrwxrwx 1 root root 22 Mar 12 12:46 lib/systemd/system/sysinit.target.wants/udev-finish.service -> ../udev-finish.service
+
+[Unit]
+Description=Copy rules generated while the root was ro
+DefaultDependencies=no
+After=systemd-udevd.service systemd-udev-settle.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/lib/udev/udev-finish

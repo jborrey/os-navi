@@ -1,0 +1,4 @@
+-rw-r--r-- 1 root root 129 Sep 15 2014 usr/share/lintian/overrides/ncurses-base
+
+# The description refers to the terminfo entry which is lowercase.
+ncurses-base: capitalization-error-in-description linux Linux

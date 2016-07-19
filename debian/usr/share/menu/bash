@@ -1,0 +1,4 @@
+-rw-r--r-- 1 root root 194 Oct 23 2013 usr/share/menu/bash
+
+?package(bash):needs="text" section="Applications/Shells" title="Bash" command="/bin/bash --login"
+?package(bash):needs="text" section="Applications/Shells" title="Sh" command="/bin/sh --login"

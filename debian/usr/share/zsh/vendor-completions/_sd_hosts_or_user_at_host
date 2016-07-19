@@ -1,0 +1,7 @@
+-rw-r--r-- 1 root root 79 Mar 12 12:46 usr/share/zsh/vendor-completions/_sd_hosts_or_user_at_host
+
+#autoload
+
+_alternative \
+  'users-hosts:: _user_at_host' \
+  'hosts:: _hosts'

@@ -1,0 +1,4 @@
+-rw-r--r-- 1 root root 4096 Jul 19 08:48 sys/devices/virtual/net/sit0/uevent
+
+INTERFACE=sit0
+IFINDEX=2

@@ -1,0 +1,4 @@
+-rw-r--r-- 1 root root 93 Mar 29 2015 usr/share/lintian/overrides/mount
+
+mount: setuid-binary bin/mount 4755 root/root
+mount: setuid-binary bin/umount 4755 root/root

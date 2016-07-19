@@ -1,0 +1,8 @@
+-r--r--r-- 1 root root 0 Jul 19 08:46 proc/fs/cifs/DebugData
+
+Display Internal CIFS Data Structures for Debugging
+---------------------------------------------------
+CIFS Version 2.08
+Features: dfs fscache posix xattr
+Active VFS Requests: 0
+Servers:

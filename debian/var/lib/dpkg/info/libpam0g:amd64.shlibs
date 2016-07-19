@@ -1,0 +1,5 @@
+-rw-r--r-- 1 root root 60 Jan 28 03:49 var/lib/dpkg/info/libpam0g:amd64.shlibs
+
+libpam 0 libpam0g
+libpam_misc 0 libpam0g
+libpamc 0 libpam0g

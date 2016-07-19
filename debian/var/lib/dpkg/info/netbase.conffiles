@@ -1,0 +1,5 @@
+-rw-r--r-- 1 root root 38 Oct 21 2014 var/lib/dpkg/info/netbase.conffiles
+
+/etc/rpc
+/etc/protocols
+/etc/services

@@ -1,0 +1,8 @@
+-r--r--r-- 1 root root 0 Jul 19 08:48 sys/fs/cgroup/blkio/blkio.throttle.io_service_bytes
+
+254:0 Read 585728
+254:0 Write 0
+254:0 Sync 0
+254:0 Async 585728
+254:0 Total 585728
+Total 585728

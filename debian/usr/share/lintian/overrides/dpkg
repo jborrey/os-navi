@@ -1,0 +1,9 @@
+-rw-r--r-- 1 root root 282 Apr 25 21:17 usr/share/lintian/overrides/dpkg
+
+dpkg: redundant-origin-field
+dpkg: redundant-bugs-field
+dpkg: arch-dep-package-has-big-usr-share
+# False positives, we read from a file not from a tty
+dpkg: read-in-maintainer-script preinst:*
+# False positives, we really need the versioned Conflicts
+dpkg: conflicts-with-version *

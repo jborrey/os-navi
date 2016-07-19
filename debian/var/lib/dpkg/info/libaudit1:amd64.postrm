@@ -1,0 +1,9 @@
+-rwxr-xr-x 1 root root 132 Dec 9 2014 var/lib/dpkg/info/libaudit1:amd64.postrm
+
+#!/bin/sh
+set -e
+# Automatically added by dh_makeshlibs
+if [ "$1" = "remove" ]; then
+	ldconfig
+fi
+# End automatically added section

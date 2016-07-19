@@ -1,0 +1,5 @@
+-r--r--r-- 1 root root 0 Jul 19 08:48 sys/fs/cgroup/cpu/cpu.stat
+
+nr_periods 0
+nr_throttled 0
+throttled_time 0

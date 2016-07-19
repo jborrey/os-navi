@@ -1,0 +1,3 @@
+-r--r--r-- 1 root root 0 Jul 19 08:47 proc/sysvipc/shm
+
+       key      shmid perms                  size  cpid  lpid nattch   uid   gid  cuid  cgid      atime      dtime      ctime                   rss                  swap

@@ -1,0 +1,9 @@
+-rwxr-xr-x 1 root root 132 Mar 26 22:00 var/lib/dpkg/info/libpcre3:amd64.postrm
+
+#!/bin/sh
+set -e
+# Automatically added by dh_makeshlibs
+if [ "$1" = "remove" ]; then
+	ldconfig
+fi
+# End automatically added section

@@ -1,0 +1,10 @@
+-rwxr-xr-x 1 root root 66 Aug 3 2014 var/lib/dpkg/info/readline-common.postrm
+
+#! /bin/sh -e
+
+case "$1" in
+    purge)
+	rm -f /etc/inputrc
+esac
+
+

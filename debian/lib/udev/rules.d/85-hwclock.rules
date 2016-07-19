@@ -1,0 +1,6 @@
+-rw-r--r-- 1 root root 204 Mar 29 2015 lib/udev/rules.d/85-hwclock.rules
+
+# Set the System Time from the Hardware Clock and set the kernel's timezone
+# value to the local timezone when the kernel clock module is loaded.
+
+KERNEL=="rtc0", RUN+="/lib/udev/hwclock-set $root/$name"

@@ -1,0 +1,4 @@
+-rw-r--r-- 1 root root 73 Mar 29 2015 var/lib/dpkg/info/libmount1:amd64.shlibs
+
+libmount 1 libmount1 (>= 2.25)
+udeb: libmount 1 libmount1-udeb (>= 2.25)

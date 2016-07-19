@@ -1,0 +1,5 @@
+-rw-r--r-- 1 root root 4096 Jul 19 06:52 sys/devices/pnp0/00:03/rtc/rtc0/uevent
+
+MAJOR=254
+MINOR=0
+DEVNAME=rtc0

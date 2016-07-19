@@ -1,0 +1,35 @@
+-r--r--r-- 1 root root 0 Jul 19 08:46 proc/9/mountinfo
+
+104 58 0:41 / / rw,relatime - aufs none rw,si=72650c3422f9af8,dio,dirperm1
+105 104 0:44 / /proc rw,nosuid,nodev,noexec,relatime - proc proc rw
+106 104 0:45 / /dev rw,nosuid - tmpfs tmpfs rw,mode=755
+107 106 0:46 / /dev/pts rw,nosuid,noexec,relatime - devpts devpts rw,gid=5,mode=620,ptmxmode=666
+108 104 0:47 / /sys ro,nosuid,nodev,noexec,relatime - sysfs sysfs ro
+109 108 0:48 / /sys/fs/cgroup ro,nosuid,nodev,noexec,relatime - tmpfs tmpfs rw,mode=755
+110 109 0:24 /docker /sys/fs/cgroup/openrc ro,nosuid,nodev,noexec,relatime - cgroup openrc rw,release_agent=/lib/rc/sh/cgroup-release-agent.sh,name=openrc
+111 109 0:25 /docker/74d21f58f5ac2a59ff96cfd82739020a9700105b426d9d6d851d8cce3a62f374 /sys/fs/cgroup/cpuset ro,nosuid,nodev,noexec,relatime - cgroup cpuset rw,cpuset
+112 109 0:26 /docker/74d21f58f5ac2a59ff96cfd82739020a9700105b426d9d6d851d8cce3a62f374 /sys/fs/cgroup/cpu ro,nosuid,nodev,noexec,relatime - cgroup cpu rw,cpu
+113 109 0:27 /docker/74d21f58f5ac2a59ff96cfd82739020a9700105b426d9d6d851d8cce3a62f374 /sys/fs/cgroup/cpuacct ro,nosuid,nodev,noexec,relatime - cgroup cpuacct rw,cpuacct
+114 109 0:28 /docker/74d21f58f5ac2a59ff96cfd82739020a9700105b426d9d6d851d8cce3a62f374 /sys/fs/cgroup/blkio ro,nosuid,nodev,noexec,relatime - cgroup blkio rw,blkio
+115 109 0:29 /docker/74d21f58f5ac2a59ff96cfd82739020a9700105b426d9d6d851d8cce3a62f374 /sys/fs/cgroup/memory ro,nosuid,nodev,noexec,relatime - cgroup memory rw,memory
+116 109 0:30 /docker/74d21f58f5ac2a59ff96cfd82739020a9700105b426d9d6d851d8cce3a62f374 /sys/fs/cgroup/devices ro,nosuid,nodev,noexec,relatime - cgroup devices rw,devices
+117 109 0:31 /docker/74d21f58f5ac2a59ff96cfd82739020a9700105b426d9d6d851d8cce3a62f374 /sys/fs/cgroup/freezer ro,nosuid,nodev,noexec,relatime - cgroup freezer rw,freezer
+118 109 0:32 /docker/74d21f58f5ac2a59ff96cfd82739020a9700105b426d9d6d851d8cce3a62f374 /sys/fs/cgroup/net_cls ro,nosuid,nodev,noexec,relatime - cgroup net_cls rw,net_cls
+119 109 0:33 /docker/74d21f58f5ac2a59ff96cfd82739020a9700105b426d9d6d851d8cce3a62f374 /sys/fs/cgroup/perf_event ro,nosuid,nodev,noexec,relatime - cgroup perf_event rw,perf_event
+120 109 0:34 /docker/74d21f58f5ac2a59ff96cfd82739020a9700105b426d9d6d851d8cce3a62f374 /sys/fs/cgroup/net_prio ro,nosuid,nodev,noexec,relatime - cgroup net_prio rw,net_prio
+121 109 0:35 /docker/74d21f58f5ac2a59ff96cfd82739020a9700105b426d9d6d851d8cce3a62f374 /sys/fs/cgroup/hugetlb ro,nosuid,nodev,noexec,relatime - cgroup hugetlb rw,hugetlb
+122 109 0:36 /docker/74d21f58f5ac2a59ff96cfd82739020a9700105b426d9d6d851d8cce3a62f374 /sys/fs/cgroup/pids ro,nosuid,nodev,noexec,relatime - cgroup pids rw,pids
+123 106 0:43 / /dev/mqueue rw,nosuid,nodev,noexec,relatime - mqueue mqueue rw
+124 104 0:39 /Users/jborrey/src/os-navi /os-navi rw,nosuid,nodev,relatime - fuse.osxfs osxfs rw,user_id=0,group_id=0,allow_other,max_read=1048576
+125 104 254:2 /lib/docker/containers/74d21f58f5ac2a59ff96cfd82739020a9700105b426d9d6d851d8cce3a62f374/resolv.conf /etc/resolv.conf rw,relatime - ext4 /dev/vda2 rw,data=ordered
+126 104 254:2 /lib/docker/containers/74d21f58f5ac2a59ff96cfd82739020a9700105b426d9d6d851d8cce3a62f374/hostname /etc/hostname rw,relatime - ext4 /dev/vda2 rw,data=ordered
+127 104 254:2 /lib/docker/containers/74d21f58f5ac2a59ff96cfd82739020a9700105b426d9d6d851d8cce3a62f374/hosts /etc/hosts rw,relatime - ext4 /dev/vda2 rw,data=ordered
+128 106 0:42 / /dev/shm rw,nosuid,nodev,noexec,relatime - tmpfs shm rw,size=65536k
+129 106 0:13 /0 /dev/console rw,nosuid,noexec,relatime - devpts devpts rw,gid=5,mode=620,ptmxmode=000
+59 105 0:44 /bus /proc/bus ro,nosuid,nodev,noexec,relatime - proc proc rw
+60 105 0:44 /fs /proc/fs ro,nosuid,nodev,noexec,relatime - proc proc rw
+61 105 0:44 /irq /proc/irq ro,nosuid,nodev,noexec,relatime - proc proc rw
+62 105 0:44 /sys /proc/sys ro,nosuid,nodev,noexec,relatime - proc proc rw
+63 105 0:44 /sysrq-trigger /proc/sysrq-trigger ro,nosuid,nodev,noexec,relatime - proc proc rw
+64 105 0:45 /null /proc/kcore rw,nosuid - tmpfs tmpfs rw,mode=755
+66 105 0:45 /null /proc/sched_debug rw,nosuid - tmpfs tmpfs rw,mode=755

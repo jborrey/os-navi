@@ -1,0 +1,13 @@
+-r--r--r-- 1 root root 0 Jul 19 08:47 proc/softirqs
+
+                    CPU0       CPU1       
+          HI:          0          0
+       TIMER:    1133893    2007826
+      NET_TX:         97        152
+      NET_RX:     827787      20747
+       BLOCK:          0          0
+BLOCK_IOPOLL:          0          0
+     TASKLET:          1          1
+       SCHED:    1103277    1977758
+     HRTIMER:          0          0
+         RCU:    1479673    2063003

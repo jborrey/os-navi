@@ -1,0 +1,5 @@
+-rw-r--r-- 1 root root 96 Jul 13 2007 usr/share/doc/libustr-1.0-1/AUTHORS
+
+James Antill
+Markus Kuhn - utf8 work.
+Paul Rosenfeld - ustr_sub / ustr_sc_sub / ustr_sc_replace

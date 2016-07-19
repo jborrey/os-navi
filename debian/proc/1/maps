@@ -1,0 +1,51 @@
+-r--r--r-- 1 root root 0 Jul 19 08:46 proc/1/maps
+
+00400000-004f2000 r-xp 00000000 00:29 22                                 /bin/bash
+006f1000-006f2000 r--p 000f1000 00:29 22                                 /bin/bash
+006f2000-006fb000 rw-p 000f2000 00:29 22                                 /bin/bash
+006fb000-00702000 rw-p 00000000 00:00 0 
+021be000-021fc000 rw-p 00000000 00:00 0                                  [heap]
+7fe8f42bd000-7fe8f42c8000 r-xp 00000000 00:29 48                         /lib/x86_64-linux-gnu/libnss_files-2.19.so
+7fe8f42c8000-7fe8f44c7000 ---p 0000b000 00:29 48                         /lib/x86_64-linux-gnu/libnss_files-2.19.so
+7fe8f44c7000-7fe8f44c8000 r--p 0000a000 00:29 48                         /lib/x86_64-linux-gnu/libnss_files-2.19.so
+7fe8f44c8000-7fe8f44c9000 rw-p 0000b000 00:29 48                         /lib/x86_64-linux-gnu/libnss_files-2.19.so
+7fe8f44c9000-7fe8f44d3000 r-xp 00000000 00:29 46                         /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+7fe8f44d3000-7fe8f46d2000 ---p 0000a000 00:29 46                         /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+7fe8f46d2000-7fe8f46d3000 r--p 00009000 00:29 46                         /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+7fe8f46d3000-7fe8f46d4000 rw-p 0000a000 00:29 46                         /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+7fe8f46d4000-7fe8f46e9000 r-xp 00000000 00:29 44                         /lib/x86_64-linux-gnu/libnsl-2.19.so
+7fe8f46e9000-7fe8f48e8000 ---p 00015000 00:29 44                         /lib/x86_64-linux-gnu/libnsl-2.19.so
+7fe8f48e8000-7fe8f48e9000 r--p 00014000 00:29 44                         /lib/x86_64-linux-gnu/libnsl-2.19.so
+7fe8f48e9000-7fe8f48ea000 rw-p 00015000 00:29 44                         /lib/x86_64-linux-gnu/libnsl-2.19.so
+7fe8f48ea000-7fe8f48ec000 rw-p 00000000 00:00 0 
+7fe8f48ec000-7fe8f48f3000 r-xp 00000000 00:29 42                         /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+7fe8f48f3000-7fe8f4af2000 ---p 00007000 00:29 42                         /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+7fe8f4af2000-7fe8f4af3000 r--p 00006000 00:29 42                         /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+7fe8f4af3000-7fe8f4af4000 rw-p 00007000 00:29 42                         /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+7fe8f4af4000-7fe8f4c96000 r-xp 00000000 00:29 36                         /lib/x86_64-linux-gnu/libc-2.19.so
+7fe8f4c96000-7fe8f4e95000 ---p 001a2000 00:29 36                         /lib/x86_64-linux-gnu/libc-2.19.so
+7fe8f4e95000-7fe8f4e99000 r--p 001a1000 00:29 36                         /lib/x86_64-linux-gnu/libc-2.19.so
+7fe8f4e99000-7fe8f4e9b000 rw-p 001a5000 00:29 36                         /lib/x86_64-linux-gnu/libc-2.19.so
+7fe8f4e9b000-7fe8f4e9f000 rw-p 00000000 00:00 0 
+7fe8f4e9f000-7fe8f4ea2000 r-xp 00000000 00:29 34                         /lib/x86_64-linux-gnu/libdl-2.19.so
+7fe8f4ea2000-7fe8f50a1000 ---p 00003000 00:29 34                         /lib/x86_64-linux-gnu/libdl-2.19.so
+7fe8f50a1000-7fe8f50a2000 r--p 00002000 00:29 34                         /lib/x86_64-linux-gnu/libdl-2.19.so
+7fe8f50a2000-7fe8f50a3000 rw-p 00003000 00:29 34                         /lib/x86_64-linux-gnu/libdl-2.19.so
+7fe8f50a3000-7fe8f50c9000 r-xp 00000000 00:29 32                         /lib/x86_64-linux-gnu/libtinfo.so.5.9
+7fe8f50c9000-7fe8f52c8000 ---p 00026000 00:29 32                         /lib/x86_64-linux-gnu/libtinfo.so.5.9
+7fe8f52c8000-7fe8f52cc000 r--p 00025000 00:29 32                         /lib/x86_64-linux-gnu/libtinfo.so.5.9
+7fe8f52cc000-7fe8f52cd000 rw-p 00029000 00:29 32                         /lib/x86_64-linux-gnu/libtinfo.so.5.9
+7fe8f52cd000-7fe8f52f1000 r-xp 00000000 00:29 30                         /lib/x86_64-linux-gnu/libncurses.so.5.9
+7fe8f52f1000-7fe8f54f0000 ---p 00024000 00:29 30                         /lib/x86_64-linux-gnu/libncurses.so.5.9
+7fe8f54f0000-7fe8f54f1000 r--p 00023000 00:29 30                         /lib/x86_64-linux-gnu/libncurses.so.5.9
+7fe8f54f1000-7fe8f54f2000 rw-p 00024000 00:29 30                         /lib/x86_64-linux-gnu/libncurses.so.5.9
+7fe8f54f2000-7fe8f5512000 r-xp 00000000 00:29 27                         /lib/x86_64-linux-gnu/ld-2.19.so
+7fe8f570a000-7fe8f570e000 rw-p 00000000 00:00 0 
+7fe8f5710000-7fe8f5712000 rw-p 00000000 00:00 0 
+7fe8f5712000-7fe8f5713000 r--p 00020000 00:29 27                         /lib/x86_64-linux-gnu/ld-2.19.so
+7fe8f5713000-7fe8f5714000 rw-p 00021000 00:29 27                         /lib/x86_64-linux-gnu/ld-2.19.so
+7fe8f5714000-7fe8f5715000 rw-p 00000000 00:00 0 
+7ffe5fdef000-7ffe5fe10000 rw-p 00000000 00:00 0                          [stack]
+7ffe5feea000-7ffe5feec000 r--p 00000000 00:00 0                          [vvar]
+7ffe5feec000-7ffe5feee000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]

@@ -1,0 +1,42 @@
+-rw-r--r-- 1 root root 643 Mar 12 13:32 etc/apt/apt.conf.d/01autoremove
+
+APT
+{
+  NeverAutoRemove
+  {
+	"^firmware-linux.*";
+	"^linux-firmware$";
+  };
+
+  VersionedKernelPackages
+  {
+	# linux kernels
+	"linux-image";
+	"linux-headers";
+	"linux-image-extra";
+	"linux-signed-image";
+	# kfreebsd kernels
+	"kfreebsd-image";
+	"kfreebsd-headers";
+	# hurd kernels
+	"gnumach-image";
+	# (out-of-tree) modules
+	".*-modules";
+	".*-kernel";
+	"linux-backports-modules-.*";
+        # tools
+        "linux-tools";
+  };
+
+  Never-MarkAuto-Sections
+  {
+	"metapackages";
+	"restricted/metapackages";
+	"universe/metapackages";
+	"multiverse/metapackages";
+	"oldlibs";
+	"restricted/oldlibs";
+	"universe/oldlibs";
+	"multiverse/oldlibs";
+  };
+};

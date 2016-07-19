@@ -1,0 +1,9 @@
+-rwxr-xr-x 1 root root 135 Feb 10 15:38 var/lib/dpkg/info/libgcrypt20:amd64.postinst
+
+#!/bin/sh
+set -e
+# Automatically added by dh_makeshlibs
+if [ "$1" = "configure" ]; then
+	ldconfig
+fi
+# End automatically added section

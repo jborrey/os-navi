@@ -1,0 +1,19 @@
+lrwxrwxrwx 1 root root 25 Mar 12 12:46 lib/systemd/system/sockets.target.wants/systemd-initctl.socket -> ../systemd-initctl.socket
+
+#  This file is part of systemd.
+#
+#  systemd is free software; you can redistribute it and/or modify it
+#  under the terms of the GNU Lesser General Public License as published by
+#  the Free Software Foundation; either version 2.1 of the License, or
+#  (at your option) any later version.
+
+[Unit]
+Description=/dev/initctl Compatibility Named Pipe
+Documentation=man:systemd-initctl.service(8)
+DefaultDependencies=no
+Before=sockets.target
+
+[Socket]
+ListenFIFO=/run/systemd/initctl/fifo
+Symlinks=/dev/initctl
+SocketMode=0600

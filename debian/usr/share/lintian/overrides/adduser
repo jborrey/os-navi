@@ -1,0 +1,5 @@
+-rw-r--r-- 1 root root 179 May 15 2012 usr/share/lintian/overrides/adduser
+
+adduser: maintainer-script-needs-depends-on-adduser postinst
+adduser: maintainer-script-needs-depends-on-adduser postrm
+adduser: maintainer-script-needs-depends-on-adduser config

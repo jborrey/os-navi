@@ -1,0 +1,5 @@
+-rw-r--r-- 1 root root 4096 Jul 19 06:52 sys/devices/virtual/cpuid/cpu1/uevent
+
+MAJOR=203
+MINOR=1
+DEVNAME=cpu/1/cpuid

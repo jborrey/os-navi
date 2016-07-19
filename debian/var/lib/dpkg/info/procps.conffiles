@@ -1,0 +1,5 @@
+-rw-r--r-- 1 root root 64 Mar 6 2015 var/lib/dpkg/info/procps.conffiles
+
+/etc/init.d/procps
+/etc/sysctl.conf
+/etc/sysctl.d/README.sysctl

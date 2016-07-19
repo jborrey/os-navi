@@ -1,0 +1,10 @@
+-rw-r--r-- 1 root root 214 Jan 28 03:49 var/lib/dpkg/info/libpam-modules:amd64.conffiles
+
+/etc/security/access.conf
+/etc/security/group.conf
+/etc/security/limits.conf
+/etc/security/namespace.conf
+/etc/security/namespace.init
+/etc/security/pam_env.conf
+/etc/security/sepermit.conf
+/etc/security/time.conf

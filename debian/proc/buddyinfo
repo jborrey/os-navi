@@ -1,0 +1,4 @@
+-r--r--r-- 1 root root 0 Jul 19 08:47 proc/buddyinfo
+
+Node 0, zone      DMA     66    122     60     55     24      3      2      1      1      2      0 
+Node 0, zone    DMA32  11985  13029  15497  10203   5669   1749    393      9      1      1      2 

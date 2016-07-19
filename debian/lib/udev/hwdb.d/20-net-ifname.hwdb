@@ -1,0 +1,7 @@
+-rw-r--r-- 1 root root 111 Mar 12 12:46 lib/udev/hwdb.d/20-net-ifname.hwdb
+
+# This file is part of systemd.
+
+# Dell iDRAC Virtual USB NIC
+usb:v413CpA102*
+ ID_NET_NAME_FROM_DATABASE=idrac

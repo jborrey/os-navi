@@ -1,0 +1,11 @@
+-rwxr-xr-x 1 root root 104 Mar 23 2012 var/lib/dpkg/info/mawk.prerm
+
+#!/bin/sh
+
+set -e
+
+if [ "$1" != "upgrade" ]; then
+  update-alternatives --remove awk /usr/bin/mawk
+fi
+
+

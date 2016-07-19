@@ -1,0 +1,20 @@
+-rw-r--r-- 1 root root 232 May 2 22:41 etc/logrotate.d/dpkg
+
+/var/log/dpkg.log {
+	monthly
+	rotate 12
+	compress
+	delaycompress
+	missingok
+	notifempty
+	create 644 root root
+}
+/var/log/alternatives.log {
+	monthly
+	rotate 12
+	compress
+	delaycompress
+	missingok
+	notifempty
+	create 644 root root
+}

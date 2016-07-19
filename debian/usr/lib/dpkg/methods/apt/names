@@ -1,0 +1,3 @@
+-rw-r--r-- 1 root root 39 Mar 12 13:31 usr/lib/dpkg/methods/apt/names
+
+70 apt APT Acquisition [file,http,ftp]

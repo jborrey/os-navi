@@ -1,0 +1,4 @@
+-rw-r--r-- 1 root root 134 Feb 24 16:16 usr/share/bug/gnupg/presubj
+
+Please consider reading /usr/share/doc/gnupg/README.BUGS.Debian.gz before
+sending a bug report. Maybe you'll find your problem there.

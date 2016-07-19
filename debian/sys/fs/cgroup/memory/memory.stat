@@ -1,0 +1,36 @@
+-r--r--r-- 1 root root 0 Jul 19 08:48 sys/fs/cgroup/memory/memory.stat
+
+cache 1600872448
+rss 2355200
+rss_huge 0
+mapped_file 53248
+dirty 0
+writeback 0
+swap 0
+pgpgin 1692113
+pgpgout 1300700
+pgfault 2458595
+pgmajfault 20
+inactive_anon 729088
+active_anon 1630208
+inactive_file 1511444480
+active_file 89399296
+unevictable 0
+hierarchical_memory_limit 9223372036854771712
+hierarchical_memsw_limit 9223372036854771712
+total_cache 1600872448
+total_rss 2355200
+total_rss_huge 0
+total_mapped_file 53248
+total_dirty 0
+total_writeback 0
+total_swap 0
+total_pgpgin 1692113
+total_pgpgout 1300700
+total_pgfault 2458595
+total_pgmajfault 20
+total_inactive_anon 729088
+total_active_anon 1630208
+total_inactive_file 1511444480
+total_active_file 89399296
+total_unevictable 0

@@ -1,0 +1,15 @@
+-rwxr-xr-x 1 root root 393 Mar 29 2015 var/lib/dpkg/info/util-linux.preinst
+
+#!/bin/sh
+set -e
+
+# We once shipped fstrim.timer in 2.25.2-2. Undo the timer getting enabled
+# and purge the helper state, if upgrading from that version.
+if [ "$1" = "upgrade" ] && [ "$2" = "2.25.2-2" ] && \
+		[ -x /usr/bin/deb-systemd-helper ] && \
+		deb-systemd-helper debian-installed fstrim.timer; then
+	deb-systemd-helper disable fstrim.timer
+	deb-systemd-helper purge fstrim.timer
+fi
+
+

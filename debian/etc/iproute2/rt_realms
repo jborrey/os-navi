@@ -1,0 +1,15 @@
+-rw-r--r-- 1 root root 112 Aug 4 2014 etc/iproute2/rt_realms
+
+#
+# reserved values
+#
+0	cosmos
+#
+# local
+#
+#1	inr.ac
+#2	inr.ruhep
+#3	freenet
+#4	radio-msu
+#5	russia
+#6	internet

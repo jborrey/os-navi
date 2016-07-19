@@ -1,0 +1,3 @@
+-r--r--r-- 1 root root 0 Jul 19 08:47 proc/sysvipc/sem
+
+       key      semid perms      nsems   uid   gid  cuid  cgid      otime      ctime

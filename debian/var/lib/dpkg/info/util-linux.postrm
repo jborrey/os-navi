@@ -1,0 +1,19 @@
+-rwxr-xr-x 1 root root 148 Mar 29 2015 var/lib/dpkg/info/util-linux.postrm
+
+#!/bin/sh
+set -e
+
+case "$1" in
+	remove)
+		;;
+
+	purge)
+		update-rc.d hwclock.sh remove >/dev/null || true
+		rm -f /etc/adjtime
+		;;
+
+	*)
+		;;
+esac
+
+

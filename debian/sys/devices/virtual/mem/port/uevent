@@ -1,0 +1,5 @@
+-rw-r--r-- 1 root root 4096 Jul 19 06:52 sys/devices/virtual/mem/port/uevent
+
+MAJOR=1
+MINOR=4
+DEVNAME=port
