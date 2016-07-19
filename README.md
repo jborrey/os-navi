@@ -18,7 +18,7 @@ If you have a question about an OS which is not represented here you might still
 
 ```
 # start docker ontainer with access to host machine where we will copy files
-host> docker run --rm -it -v <this dir>:/os-navi debian
+host> docker run --rm -it -v $(pwd):/os-navi debian
 
 # this would not normally exist
 container> rm .dockerenv
