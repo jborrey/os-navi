@@ -17,6 +17,10 @@ If you have a question about an OS which is not represented here you might still
 ### Copy an OS
 
 ```
+# start log file
+host> mkdir debian
+host> echo $'=== COPY SCRIPT ===\n' > debian/log.txt
+
 # start docker ontainer with access to host machine where we will copy files
 host> docker run --rm -it -v $(pwd):/os-navi debian
 
@@ -32,5 +36,7 @@ container> { time ls -A | xargs -n 1 ./os-navi/copy_system.sh /os-navi/debian; }
 # to record the copy script
 host> cp copy_system.sh debian/copy_system.sh
 
-host> ./clean_os.sh debian
+host> echo $'=== CLEAN SCRIPT ===\n' >> debian/log.txt
+
+host> ./clean_os.sh debian | tee -a debian/log.txt
 ```
