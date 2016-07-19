@@ -1,0 +1,7 @@
+-rwxr-xr-x 1 root root 179 Mar 12 13:32 var/lib/dpkg/info/apt.preinst
+
+#!/bin/sh
+set -e
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/apt/apt.conf.d/20changelog 1.0.3 -- "@" -- "$@"
+# End automatically added section

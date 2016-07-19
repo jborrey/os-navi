@@ -1,0 +1,17 @@
+lrwxrwxrwx 1 root root 16 Mar 12 12:46 lib/systemd/system/runlevel5.target -> graphical.target
+
+#  This file is part of systemd.
+#
+#  systemd is free software; you can redistribute it and/or modify it
+#  under the terms of the GNU Lesser General Public License as published by
+#  the Free Software Foundation; either version 2.1 of the License, or
+#  (at your option) any later version.
+
+[Unit]
+Description=Graphical Interface
+Documentation=man:systemd.special(7)
+Requires=multi-user.target
+After=multi-user.target
+Conflicts=rescue.target
+Wants=display-manager.service
+AllowIsolate=yes

@@ -1,0 +1,14 @@
+-rw-r--r-- 1 root root 349 Jun 8 16:28 var/lib/dpkg/info/libdevmapper1.02.1:amd64.list
+
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libdevmapper1.02.1
+/usr/share/doc/libdevmapper1.02.1/changelog.Debian.gz
+/usr/share/doc/libdevmapper1.02.1/changelog.gz
+/usr/share/doc/libdevmapper1.02.1/changelog.Debian.devmapper.gz
+/usr/share/doc/libdevmapper1.02.1/copyright
+/lib
+/lib/x86_64-linux-gnu
+/lib/x86_64-linux-gnu/libdevmapper.so.1.02.1

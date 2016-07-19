@@ -1,0 +1,20 @@
+-rwxr-xr-x 1 root root 310 Jul 28 2013 var/lib/dpkg/info/debianutils.postrm
+
+#! /bin/sh
+
+set -e
+
+case "$1" in
+    remove|disappear)
+    if which update-mime >/dev/null;
+    then
+            update-mime
+    fi
+        ;;
+    upgrade|failed-upgrade|purge|abort-install|abort-upgrade)
+        ;;
+    *)
+        echo "prerm called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac

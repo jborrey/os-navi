@@ -1,0 +1,6 @@
+-rw-r--r-- 1 root root 172 Dec 9 2014 var/lib/dpkg/info/libncursesw5:amd64.shlibs
+
+libncursesw 5 libncursesw5 (>= 5.9+20140712)
+libpanelw 5 libncursesw5 (>= 5.9+20140712)
+libformw 5 libncursesw5 (>= 5.9+20140712)
+libmenuw 5 libncursesw5 (>= 5.9+20140712)

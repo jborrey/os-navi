@@ -1,0 +1,5 @@
+-rw-r--r-- 1 root root 4096 Jul 19 06:52 sys/devices/virtual/misc/hw_random/uevent
+
+MAJOR=10
+MINOR=183
+DEVNAME=hwrng

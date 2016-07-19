@@ -1,0 +1,20 @@
+-rw-r--r-- 1 root root 380 Jun 8 16:28 var/lib/dpkg/info/startpar.list
+
+/.
+/etc
+/etc/init
+/etc/init/startpar-bridge.conf
+/lib
+/lib/startpar
+/lib/startpar/startpar
+/lib/startpar/startpar-upstart-inject
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/startpar
+/usr/share/doc/startpar/copyright
+/usr/share/doc/startpar/changelog.Debian.gz
+/usr/share/man
+/usr/share/man/man8
+/usr/share/man/man8/startpar-upstart-inject.8.gz
+/usr/share/man/man8/startpar.8.gz

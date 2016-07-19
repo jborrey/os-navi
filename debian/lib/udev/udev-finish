@@ -1,0 +1,11 @@
+-rwxr-xr-x 1 root root 230 Mar 12 12:46 lib/udev/udev-finish
+
+#!/bin/sh -e
+
+# Copy any rules generated while the root filesystem was read-only
+for file in /run/udev/tmp-rules--*; do
+  [ -e "$file" ] || continue
+  cat "$file" >> "/etc/udev/rules.d/${file##*tmp-rules--}"
+  rm -f "$file"
+done
+

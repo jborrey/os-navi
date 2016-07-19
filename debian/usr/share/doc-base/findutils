@@ -1,0 +1,12 @@
+-rw-r--r-- 1 root root 323 Apr 13 2014 usr/share/doc-base/findutils
+
+Document: findutils
+Title: findutils
+Abstract: utilities for finding files--find, xargs, and locate
+ These utilities find files meeting specified criteria and perform
+ various actions on the files which are found.
+Section: File Management
+
+Format: info
+Index: /usr/share/info/find.info.gz
+Files: /usr/share/info/find.info*

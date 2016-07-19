@@ -1,0 +1,9 @@
+-rw-r--r-- 1 root root 166 Sep 5 2014 var/lib/dpkg/info/iproute2.conffiles
+
+/etc/iproute2/rt_tables
+/etc/iproute2/rt_scopes
+/etc/iproute2/rt_realms
+/etc/iproute2/rt_protos
+/etc/iproute2/rt_dsfield
+/etc/iproute2/group
+/etc/iproute2/ematch_map

@@ -1,0 +1,10 @@
+-rwxr-xr-x 1 root root 148 Mar 19 2015 var/lib/dpkg/info/debconf.preinst
+
+#!/bin/sh
+set -e
+
+
+# Move conffile.
+if [ -e /etc/apt/apt.conf.d/debconf ]; then
+	mv -f /etc/apt/apt.conf.d/debconf /etc/apt/apt.conf.d/70debconf
+fi

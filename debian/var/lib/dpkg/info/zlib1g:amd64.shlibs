@@ -1,0 +1,4 @@
+-rw-r--r-- 1 root root 83 Nov 27 2014 var/lib/dpkg/info/zlib1g:amd64.shlibs
+
+libz 1 zlib1g (>= 1:1.2.3.3.dfsg-1)
+udeb: libz 1 zlib1g-udeb (>= 1:1.2.3.3.dfsg-1)

@@ -1,0 +1,5 @@
+-r--r--r-- 1 root root 0 Jul 19 08:46 proc/irq/4/spurious
+
+count 434
+unhandled 69
+last_unhandled 4294675186 ms

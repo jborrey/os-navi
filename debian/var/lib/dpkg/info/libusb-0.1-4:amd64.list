@@ -1,0 +1,18 @@
+-rw-r--r-- 1 root root 415 Jun 8 16:29 var/lib/dpkg/info/libusb-0.1-4:amd64.list
+
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libusb-0.1-4
+/usr/share/doc/libusb-0.1-4/changelog.Debian.gz
+/usr/share/doc/libusb-0.1-4/changelog.gz
+/usr/share/doc/libusb-0.1-4/copyright
+/usr/share/doc/libusb-0.1-4/README.Debian
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/lib
+/lib/x86_64-linux-gnu
+/lib/x86_64-linux-gnu/libusb-0.1.so.4.4.4
+/usr/lib/x86_64-linux-gnu/libusb-0.1.so.4
+/lib/x86_64-linux-gnu/libusb-0.1.so.4

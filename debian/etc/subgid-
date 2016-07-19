@@ -1,0 +1,5 @@
+-rw------- 1 root root 88 Jun 8 16:29 etc/subgid-
+
+systemd-timesync:100000:65536
+systemd-network:165536:65536
+systemd-resolve:231072:65536

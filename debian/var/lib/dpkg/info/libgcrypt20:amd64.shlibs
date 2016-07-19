@@ -1,0 +1,4 @@
+-rw-r--r-- 1 root root 85 Feb 10 15:38 var/lib/dpkg/info/libgcrypt20:amd64.shlibs
+
+libgcrypt 20 libgcrypt20 (>=1.6.0-0)
+udeb: libgcrypt 20 libgcrypt20-udeb (>=1.6.0-0)

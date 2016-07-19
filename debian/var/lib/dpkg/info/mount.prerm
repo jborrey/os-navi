@@ -1,0 +1,10 @@
+-rwxr-xr-x 1 root root 83 Mar 29 2015 var/lib/dpkg/info/mount.prerm
+
+#!/bin/sh
+set -e
+
+if [ -L /usr/doc/mount ]; then
+        rm -f /usr/doc/mount
+fi
+
+

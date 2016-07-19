@@ -1,0 +1,11 @@
+-rw-r--r-- 1 root root 309 Feb 29 17:19 usr/share/doc/libc6/test-results-x86_64-linux-gnu-libc
+
+#
+# Testsuite failures, someone should be working towards
+# fixing these! They are listed here for the purpose of
+# regression testing during builds.
+# Format: <Failed test>, Error <Make error code> [(ignored)]
+#
+annexc.out, Error 1 (ignored)
+run-conformtest.out, Error 1 (ignored)
+tst-cpuclock2.out, Error 1

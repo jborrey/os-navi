@@ -1,0 +1,3 @@
+-r--r--r-- 1 root root 0 Jul 19 08:48 proc/3857/task/3857/net/rt_cache
+
+Iface	Destination	Gateway 	Flags		RefCnt	Use	Metric	Source		MTU	Window	IRTT	TOS	HHRef	HHUptod	SpecDst                          

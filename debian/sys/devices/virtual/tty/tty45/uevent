@@ -1,0 +1,5 @@
+-rw-r--r-- 1 root root 4096 Jul 19 06:52 sys/devices/virtual/tty/tty45/uevent
+
+MAJOR=4
+MINOR=45
+DEVNAME=tty45

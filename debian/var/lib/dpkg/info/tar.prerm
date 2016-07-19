@@ -1,0 +1,21 @@
+-rwxr-xr-x 1 root root 317 Nov 8 2014 var/lib/dpkg/info/tar.prerm
+
+#!/bin/sh
+set -e
+
+case "$1" in
+    remove|deconfigure)
+	update-alternatives --remove rmt /usr/sbin/rmt-tar
+	if test -L /sbin/rmt && test /sbin/rmt -ef /usr/sbin/rmt; then
+		rm -f /sbin/rmt
+	fi
+    ;;
+    upgrade|failed-upgrade)
+    ;;
+    *)
+	echo "prerm called with unknown argument \`$1'" >&2
+	exit 1
+    ;;
+esac
+
+

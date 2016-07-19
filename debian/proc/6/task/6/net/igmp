@@ -1,0 +1,7 @@
+-r--r--r-- 1 root root 0 Jul 19 08:47 proc/6/task/6/net/igmp
+
+Idx	Device    : Count Querier	Group    Users Timer	Reporter
+1	lo        :     1      V3
+				010000E0     1 0:00000000		0
+107	eth0      :     1      V3
+				010000E0     1 0:00000000		0

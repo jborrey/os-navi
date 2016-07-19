@@ -1,0 +1,933 @@
+-r--r--r-- 1 root root 0 Jul 19 08:46 proc/1/smaps
+
+00400000-004f2000 r-xp 00000000 00:29 22                                 /bin/bash
+Size:                968 kB
+Rss:                 884 kB
+Pss:                 568 kB
+Shared_Clean:        632 kB
+Shared_Dirty:          0 kB
+Private_Clean:       252 kB
+Private_Dirty:         0 kB
+Referenced:          884 kB
+Anonymous:             0 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: rd ex mr mw me dw 
+006f1000-006f2000 r--p 000f1000 00:29 22                                 /bin/bash
+Size:                  4 kB
+Rss:                   4 kB
+Pss:                   2 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          4 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            4 kB
+Anonymous:             4 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: rd mr mw me dw ac 
+006f2000-006fb000 rw-p 000f2000 00:29 22                                 /bin/bash
+Size:                 36 kB
+Rss:                  36 kB
+Pss:                  22 kB
+Shared_Clean:          0 kB
+Shared_Dirty:         28 kB
+Private_Clean:         0 kB
+Private_Dirty:         8 kB
+Referenced:           36 kB
+Anonymous:            36 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: rd wr mr mw me dw ac 
+006fb000-00702000 rw-p 00000000 00:00 0 
+Size:                 28 kB
+Rss:                  28 kB
+Pss:                  22 kB
+Shared_Clean:          0 kB
+Shared_Dirty:         12 kB
+Private_Clean:         0 kB
+Private_Dirty:        16 kB
+Referenced:           28 kB
+Anonymous:            28 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: rd wr mr mw me ac 
+021be000-021fc000 rw-p 00000000 00:00 0                                  [heap]
+Size:                248 kB
+Rss:                 248 kB
+Pss:                 134 kB
+Shared_Clean:          0 kB
+Shared_Dirty:        228 kB
+Private_Clean:         0 kB
+Private_Dirty:        20 kB
+Referenced:          248 kB
+Anonymous:           248 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: rd wr mr mw me ac 
+7fe8f42bd000-7fe8f42c8000 r-xp 00000000 00:29 48                         /lib/x86_64-linux-gnu/libnss_files-2.19.so
+Size:                 44 kB
+Rss:                  44 kB
+Pss:                  44 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:        44 kB
+Private_Dirty:         0 kB
+Referenced:           44 kB
+Anonymous:             0 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: rd ex mr mw me 
+7fe8f42c8000-7fe8f44c7000 ---p 0000b000 00:29 48                         /lib/x86_64-linux-gnu/libnss_files-2.19.so
+Size:               2044 kB
+Rss:                   0 kB
+Pss:                   0 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            0 kB
+Anonymous:             0 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: mr mw me 
+7fe8f44c7000-7fe8f44c8000 r--p 0000a000 00:29 48                         /lib/x86_64-linux-gnu/libnss_files-2.19.so
+Size:                  4 kB
+Rss:                   4 kB
+Pss:                   2 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          4 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            4 kB
+Anonymous:             4 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: rd mr mw me ac 
+7fe8f44c8000-7fe8f44c9000 rw-p 0000b000 00:29 48                         /lib/x86_64-linux-gnu/libnss_files-2.19.so
+Size:                  4 kB
+Rss:                   4 kB
+Pss:                   2 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          4 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            4 kB
+Anonymous:             4 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: rd wr mr mw me ac 
+7fe8f44c9000-7fe8f44d3000 r-xp 00000000 00:29 46                         /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+Size:                 40 kB
+Rss:                  40 kB
+Pss:                  40 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:        40 kB
+Private_Dirty:         0 kB
+Referenced:           40 kB
+Anonymous:             0 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: rd ex mr mw me 
+7fe8f44d3000-7fe8f46d2000 ---p 0000a000 00:29 46                         /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+Size:               2044 kB
+Rss:                   0 kB
+Pss:                   0 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            0 kB
+Anonymous:             0 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: mr mw me 
+7fe8f46d2000-7fe8f46d3000 r--p 00009000 00:29 46                         /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+Size:                  4 kB
+Rss:                   4 kB
+Pss:                   2 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          4 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            4 kB
+Anonymous:             4 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: rd mr mw me ac 
+7fe8f46d3000-7fe8f46d4000 rw-p 0000a000 00:29 46                         /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+Size:                  4 kB
+Rss:                   4 kB
+Pss:                   2 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          4 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            4 kB
+Anonymous:             4 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: rd wr mr mw me ac 
+7fe8f46d4000-7fe8f46e9000 r-xp 00000000 00:29 44                         /lib/x86_64-linux-gnu/libnsl-2.19.so
+Size:                 84 kB
+Rss:                  64 kB
+Pss:                  64 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:        64 kB
+Private_Dirty:         0 kB
+Referenced:           64 kB
+Anonymous:             0 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: rd ex mr mw me 
+7fe8f46e9000-7fe8f48e8000 ---p 00015000 00:29 44                         /lib/x86_64-linux-gnu/libnsl-2.19.so
+Size:               2044 kB
+Rss:                   0 kB
+Pss:                   0 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            0 kB
+Anonymous:             0 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: mr mw me 
+7fe8f48e8000-7fe8f48e9000 r--p 00014000 00:29 44                         /lib/x86_64-linux-gnu/libnsl-2.19.so
+Size:                  4 kB
+Rss:                   4 kB
+Pss:                   2 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          4 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            4 kB
+Anonymous:             4 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: rd mr mw me ac 
+7fe8f48e9000-7fe8f48ea000 rw-p 00015000 00:29 44                         /lib/x86_64-linux-gnu/libnsl-2.19.so
+Size:                  4 kB
+Rss:                   4 kB
+Pss:                   2 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          4 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            4 kB
+Anonymous:             4 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: rd wr mr mw me ac 
+7fe8f48ea000-7fe8f48ec000 rw-p 00000000 00:00 0 
+Size:                  8 kB
+Rss:                   0 kB
+Pss:                   0 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            0 kB
+Anonymous:             0 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: rd wr mr mw me ac 
+7fe8f48ec000-7fe8f48f3000 r-xp 00000000 00:29 42                         /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+Size:                 28 kB
+Rss:                  28 kB
+Pss:                  28 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:        28 kB
+Private_Dirty:         0 kB
+Referenced:           28 kB
+Anonymous:             0 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: rd ex mr mw me 
+7fe8f48f3000-7fe8f4af2000 ---p 00007000 00:29 42                         /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+Size:               2044 kB
+Rss:                   0 kB
+Pss:                   0 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            0 kB
+Anonymous:             0 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: mr mw me 
+7fe8f4af2000-7fe8f4af3000 r--p 00006000 00:29 42                         /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+Size:                  4 kB
+Rss:                   4 kB
+Pss:                   2 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          4 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            4 kB
+Anonymous:             4 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: rd mr mw me ac 
+7fe8f4af3000-7fe8f4af4000 rw-p 00007000 00:29 42                         /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+Size:                  4 kB
+Rss:                   4 kB
+Pss:                   2 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          4 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            4 kB
+Anonymous:             4 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: rd wr mr mw me ac 
+7fe8f4af4000-7fe8f4c96000 r-xp 00000000 00:29 36                         /lib/x86_64-linux-gnu/libc-2.19.so
+Size:               1672 kB
+Rss:                1320 kB
+Pss:                 561 kB
+Shared_Clean:       1084 kB
+Shared_Dirty:          0 kB
+Private_Clean:       236 kB
+Private_Dirty:         0 kB
+Referenced:         1320 kB
+Anonymous:             0 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: rd ex mr mw me 
+7fe8f4c96000-7fe8f4e95000 ---p 001a2000 00:29 36                         /lib/x86_64-linux-gnu/libc-2.19.so
+Size:               2044 kB
+Rss:                   0 kB
+Pss:                   0 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            0 kB
+Anonymous:             0 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: mr mw me 
+7fe8f4e95000-7fe8f4e99000 r--p 001a1000 00:29 36                         /lib/x86_64-linux-gnu/libc-2.19.so
+Size:                 16 kB
+Rss:                  16 kB
+Pss:                   8 kB
+Shared_Clean:          0 kB
+Shared_Dirty:         16 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:           16 kB
+Anonymous:            16 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: rd mr mw me ac 
+7fe8f4e99000-7fe8f4e9b000 rw-p 001a5000 00:29 36                         /lib/x86_64-linux-gnu/libc-2.19.so
+Size:                  8 kB
+Rss:                   8 kB
+Pss:                   4 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          8 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            8 kB
+Anonymous:             8 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: rd wr mr mw me ac 
+7fe8f4e9b000-7fe8f4e9f000 rw-p 00000000 00:00 0 
+Size:                 16 kB
+Rss:                  12 kB
+Pss:                   8 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          8 kB
+Private_Clean:         0 kB
+Private_Dirty:         4 kB
+Referenced:           12 kB
+Anonymous:            12 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: rd wr mr mw me ac 
+7fe8f4e9f000-7fe8f4ea2000 r-xp 00000000 00:29 34                         /lib/x86_64-linux-gnu/libdl-2.19.so
+Size:                 12 kB
+Rss:                  12 kB
+Pss:                   6 kB
+Shared_Clean:         12 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:           12 kB
+Anonymous:             0 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: rd ex mr mw me 
+7fe8f4ea2000-7fe8f50a1000 ---p 00003000 00:29 34                         /lib/x86_64-linux-gnu/libdl-2.19.so
+Size:               2044 kB
+Rss:                   0 kB
+Pss:                   0 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            0 kB
+Anonymous:             0 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: mr mw me 
+7fe8f50a1000-7fe8f50a2000 r--p 00002000 00:29 34                         /lib/x86_64-linux-gnu/libdl-2.19.so
+Size:                  4 kB
+Rss:                   4 kB
+Pss:                   2 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          4 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            4 kB
+Anonymous:             4 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: rd mr mw me ac 
+7fe8f50a2000-7fe8f50a3000 rw-p 00003000 00:29 34                         /lib/x86_64-linux-gnu/libdl-2.19.so
+Size:                  4 kB
+Rss:                   4 kB
+Pss:                   2 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          4 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            4 kB
+Anonymous:             4 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: rd wr mr mw me ac 
+7fe8f50a3000-7fe8f50c9000 r-xp 00000000 00:29 32                         /lib/x86_64-linux-gnu/libtinfo.so.5.9
+Size:                152 kB
+Rss:                 152 kB
+Pss:                 120 kB
+Shared_Clean:         64 kB
+Shared_Dirty:          0 kB
+Private_Clean:        88 kB
+Private_Dirty:         0 kB
+Referenced:          152 kB
+Anonymous:             0 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: rd ex mr mw me 
+7fe8f50c9000-7fe8f52c8000 ---p 00026000 00:29 32                         /lib/x86_64-linux-gnu/libtinfo.so.5.9
+Size:               2044 kB
+Rss:                   0 kB
+Pss:                   0 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            0 kB
+Anonymous:             0 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: mr mw me 
+7fe8f52c8000-7fe8f52cc000 r--p 00025000 00:29 32                         /lib/x86_64-linux-gnu/libtinfo.so.5.9
+Size:                 16 kB
+Rss:                  16 kB
+Pss:                   8 kB
+Shared_Clean:          0 kB
+Shared_Dirty:         16 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:           16 kB
+Anonymous:            16 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: rd mr mw me ac 
+7fe8f52cc000-7fe8f52cd000 rw-p 00029000 00:29 32                         /lib/x86_64-linux-gnu/libtinfo.so.5.9
+Size:                  4 kB
+Rss:                   4 kB
+Pss:                   2 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          4 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            4 kB
+Anonymous:             4 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: rd wr mr mw me ac 
+7fe8f52cd000-7fe8f52f1000 r-xp 00000000 00:29 30                         /lib/x86_64-linux-gnu/libncurses.so.5.9
+Size:                144 kB
+Rss:                  64 kB
+Pss:                  32 kB
+Shared_Clean:         64 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:           64 kB
+Anonymous:             0 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: rd ex mr mw me 
+7fe8f52f1000-7fe8f54f0000 ---p 00024000 00:29 30                         /lib/x86_64-linux-gnu/libncurses.so.5.9
+Size:               2044 kB
+Rss:                   0 kB
+Pss:                   0 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            0 kB
+Anonymous:             0 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: mr mw me 
+7fe8f54f0000-7fe8f54f1000 r--p 00023000 00:29 30                         /lib/x86_64-linux-gnu/libncurses.so.5.9
+Size:                  4 kB
+Rss:                   4 kB
+Pss:                   2 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          4 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            4 kB
+Anonymous:             4 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: rd mr mw me ac 
+7fe8f54f1000-7fe8f54f2000 rw-p 00024000 00:29 30                         /lib/x86_64-linux-gnu/libncurses.so.5.9
+Size:                  4 kB
+Rss:                   4 kB
+Pss:                   2 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          4 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            4 kB
+Anonymous:             4 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: rd wr mr mw me ac 
+7fe8f54f2000-7fe8f5512000 r-xp 00000000 00:29 27                         /lib/x86_64-linux-gnu/ld-2.19.so
+Size:                128 kB
+Rss:                 116 kB
+Pss:                  29 kB
+Shared_Clean:        116 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:          116 kB
+Anonymous:             0 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: rd ex mr mw me dw 
+7fe8f570a000-7fe8f570e000 rw-p 00000000 00:00 0 
+Size:                 16 kB
+Rss:                  16 kB
+Pss:                  10 kB
+Shared_Clean:          0 kB
+Shared_Dirty:         12 kB
+Private_Clean:         0 kB
+Private_Dirty:         4 kB
+Referenced:           16 kB
+Anonymous:            16 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: rd wr mr mw me ac 
+7fe8f5710000-7fe8f5712000 rw-p 00000000 00:00 0 
+Size:                  8 kB
+Rss:                   8 kB
+Pss:                   4 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          8 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            8 kB
+Anonymous:             8 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: rd wr mr mw me ac 
+7fe8f5712000-7fe8f5713000 r--p 00020000 00:29 27                         /lib/x86_64-linux-gnu/ld-2.19.so
+Size:                  4 kB
+Rss:                   4 kB
+Pss:                   2 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          4 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            4 kB
+Anonymous:             4 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: rd mr mw me dw ac 
+7fe8f5713000-7fe8f5714000 rw-p 00021000 00:29 27                         /lib/x86_64-linux-gnu/ld-2.19.so
+Size:                  4 kB
+Rss:                   4 kB
+Pss:                   4 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         4 kB
+Referenced:            4 kB
+Anonymous:             4 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: rd wr mr mw me dw ac 
+7fe8f5714000-7fe8f5715000 rw-p 00000000 00:00 0 
+Size:                  4 kB
+Rss:                   4 kB
+Pss:                   2 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          4 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            4 kB
+Anonymous:             4 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: rd wr mr mw me ac 
+7ffe5fdef000-7ffe5fe10000 rw-p 00000000 00:00 0                          [stack]
+Size:                136 kB
+Rss:                  24 kB
+Pss:                  16 kB
+Shared_Clean:          0 kB
+Shared_Dirty:         16 kB
+Private_Clean:         0 kB
+Private_Dirty:         8 kB
+Referenced:           24 kB
+Anonymous:            24 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: rd wr mr mw me gd ac 
+7ffe5feea000-7ffe5feec000 r--p 00000000 00:00 0                          [vvar]
+Size:                  8 kB
+Rss:                   0 kB
+Pss:                   0 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            0 kB
+Anonymous:             0 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: rd mr pf io de dd 
+7ffe5feec000-7ffe5feee000 r-xp 00000000 00:00 0                          [vdso]
+Size:                  8 kB
+Rss:                   4 kB
+Pss:                   0 kB
+Shared_Clean:          4 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            4 kB
+Anonymous:             0 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: rd ex mr mw me de 
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+Size:                  4 kB
+Rss:                   0 kB
+Pss:                   0 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         0 kB
+Referenced:            0 kB
+Anonymous:             0 kB
+AnonHugePages:         0 kB
+Shared_Hugetlb:        0 kB
+Private_Hugetlb:       0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: rd ex 

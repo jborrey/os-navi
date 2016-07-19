@@ -1,0 +1,4 @@
+-rw-r--r-- 1 root root 89 Mar 29 2015 var/lib/dpkg/info/libsmartcols1:amd64.shlibs
+
+libsmartcols 1 libsmartcols1 (>= 2.25)
+udeb: libsmartcols 1 libsmartcols1-udeb (>= 2.25)

@@ -1,0 +1,7 @@
+-rw-r--r-- 1 root root 108 Nov 8 2014 usr/share/menu/dash
+
+?package(dash): \
+  title="Dash"\
+  needs="text"\
+  section="Applications/Shells"\
+  command="/bin/dash -i"

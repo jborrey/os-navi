@@ -1,0 +1,9 @@
+-rw-r--r-- 1 root root 4096 Jul 19 06:52 sys/devices/platform/pcspkr/input/input1/uevent
+
+PRODUCT=10/1f/1/100
+NAME="PC Speaker"
+PHYS="isa0061/input0"
+PROP=0
+EV=40001
+SND=6
+MODALIAS=input:b0010v001Fp0001e0100-e0,12,kramls1,2,fw

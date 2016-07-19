@@ -1,0 +1,9 @@
+-r--r--r-- 1 root root 0 Jul 19 08:47 proc/6/task/6/net/dev
+
+Inter-|   Receive                                                |  Transmit
+ face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+  sit0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+    lo:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+ip6tnl0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+ip6gre0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+  eth0:     648       8    0    0    0     0          0         0      648       8    0    0    0     0       0          0

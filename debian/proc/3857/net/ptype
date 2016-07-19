@@ -1,0 +1,8 @@
+-r--r--r-- 1 root root 0 Jul 19 08:48 proc/3857/net/ptype
+
+Type Device      Function
+0800          ip_rcv
+0011          llc_rcv
+0004          llc_rcv
+0806          arp_rcv
+86dd          ipv6_rcv

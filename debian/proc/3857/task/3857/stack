@@ -1,0 +1,7 @@
+-r-------- 1 root root 0 Jul 19 08:46 proc/3857/task/3857/stack
+
+[<ffffffff8106d808>] do_wait+0x197/0x212
+[<ffffffff8106d910>] SYSC_wait4+0x8d/0xae
+[<ffffffff8106ca4d>] child_wait_callback+0x0/0x43
+[<ffffffff8168366e>] entry_SYSCALL_64_fastpath+0x12/0x71
+[<ffffffffffffffff>] 0xffffffffffffffff

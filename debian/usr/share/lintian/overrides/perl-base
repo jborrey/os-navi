@@ -1,0 +1,6 @@
+-rw-r--r-- 1 root root 179 May 23 23:13 usr/share/lintian/overrides/perl-base
+
+# see #522827
+usr-share-doc-symlink-without-dependency perl
+# we never want these unpacked at the same time, they break maintainer scripts
+conflicts-with-version safe-rm (<< 0.8)

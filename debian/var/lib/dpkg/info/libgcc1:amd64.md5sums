@@ -1,0 +1,4 @@
+-rw-r--r-- 1 root root 139 Dec 25 2014 var/lib/dpkg/info/libgcc1:amd64.md5sums
+
+5fa8b1390c5b6860b03d2cb9cb2dd8ba  lib/x86_64-linux-gnu/libgcc_s.so.1
+f79acf8d33ea1c17cee2548b40d82ddf  usr/share/lintian/overrides/libgcc1

@@ -1,0 +1,9 @@
+-rwxr-xr-x 1 root root 140 Sep 26 2014 bin/zegrep
+
+#!/bin/sh
+bindir='/bin'
+case $1 in
+--__bindir) bindir=${2?}; shift; shift;;
+esac
+PATH=$bindir:$PATH
+exec zgrep --__bindir "$bindir" -E "$@"

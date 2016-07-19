@@ -1,0 +1,6 @@
+-rw-r--r-- 1 root root 143 Sep 10 2014 var/lib/dpkg/info/libdebconfclient0:amd64.symbols
+
+libdebconfclient.so.0 libdebconfclient0 #MINVER#
+ debconfclient_delete@Base 0.145
+ debconfclient_init@Base 0.145
+ debconfclient_new@Base 0.145

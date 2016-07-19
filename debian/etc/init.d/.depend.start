@@ -1,0 +1,7 @@
+-rw-r--r-- 1 root root 155 Jun 8 16:29 etc/init.d/.depend.start
+
+TARGETS = bootlogs killprocs motd single rc.local rmnologin
+INTERACTIVE =
+single: killprocs bootlogs motd
+rc.local: bootlogs motd
+rmnologin: bootlogs motd

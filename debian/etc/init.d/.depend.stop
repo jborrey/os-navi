@@ -1,0 +1,8 @@
+-rw-r--r-- 1 root root 205 Jun 8 16:29 etc/init.d/.depend.stop
+
+TARGETS = sendsigs hwclock.sh urandom umountnfs.sh umountfs umountroot halt reboot
+umountnfs.sh: sendsigs
+umountfs: hwclock.sh urandom umountnfs.sh
+umountroot: umountfs
+halt: umountroot
+reboot: umountroot

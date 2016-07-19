@@ -1,0 +1,33 @@
+-rw-r--r-- 1 root root 671 Sep 18 2013 usr/share/doc/util-linux/PAM-configuration.txt
+
+
+ PAM configuration is very distribution specific. This is reason why upstream
+ util-linux package does not install any PAM config files.
+
+
+ Expected PAM config files:
+
+ login(1):
+    /etc/pam.d/remote - for -h command line option
+    /etc/pam.d/login  - regular login
+
+
+ su(1):
+    /etc/pam.d/su-l   - for --login command line option
+    /etc/pam.d/su     - regular su
+
+
+ runuser(1):
+    /etc/pam.d/runuser-l   - for --login command line option
+    /etc/pam.d/runuser     - regular su
+
+    Note that runuser requires only "session" setting (and for example
+    "auth sufficient pam_rootok.so" dummy line).
+
+
+ chfn(1):
+    /etc/pam.d/chfn
+
+
+ chsh(1):
+    /etc/pam.d/chsh

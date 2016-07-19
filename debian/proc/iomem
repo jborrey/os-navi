@@ -1,0 +1,29 @@
+-r--r--r-- 1 root root 0 Jul 19 08:47 proc/iomem
+
+00000000-7fffffffff : PCI Bus 0000:00
+  00000000-00000fff : reserved
+  00001000-0009fbff : System RAM
+  000f0000-000fffff : System ROM
+  00100000-7fffffff : System RAM
+    01000000-01687cb9 : Kernel code
+    01687cba-01d36e3f : Kernel data
+    01e37000-01eddfff : Kernel bss
+  80000000-800007ff : 0000:00:02.0
+  80000800-80000fff : 0000:00:03.0
+  80001000-800017ff : 0000:00:04.0
+  80001800-80001fff : 0000:00:05.0
+  80002000-800027ff : 0000:00:06.0
+  80002800-80002fff : 0000:00:07.0
+  80003000-800037ff : 0000:00:1f.0
+  c0000000-c0001fff : 0000:00:02.0
+  c0002000-c0003fff : 0000:00:03.0
+  c0004000-c0005fff : 0000:00:04.0
+  c0006000-c0007fff : 0000:00:05.0
+  c0008000-c0009fff : 0000:00:06.0
+  c000a000-c000bfff : 0000:00:07.0
+  e0000000-efffffff : PCI MMCONFIG 0000 [bus 00-ff]
+    e0000000-efffffff : pnp 00:00
+  fec00000-fec003ff : IOAPIC 0
+  fed00000-fed003ff : HPET 0
+    fed00000-fed003ff : PNP0103:00
+  fee00000-fee00fff : Local APIC

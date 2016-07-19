@@ -1,0 +1,5 @@
+lrwxrwxrwx 1 root root 6 Jun 8 16:28 etc/dpkg/origins/default -> debian
+
+Vendor: Debian
+Vendor-URL: http://www.debian.org/
+Bugs: debbugs://bugs.debian.org

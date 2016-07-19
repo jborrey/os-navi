@@ -1,0 +1,3 @@
+-rw-r--r-- 1 root root 40 Feb 29 17:29 var/lib/dpkg/info/libc6:amd64.conffiles
+
+/etc/ld.so.conf.d/x86_64-linux-gnu.conf

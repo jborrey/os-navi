@@ -1,0 +1,14 @@
+-r--r--r-- 1 root root 0 Jul 19 08:46 proc/fs/jbd2/vda2-8/info
+
+6334 transactions (3410 requested), each up to 8192 blocks
+average: 
+  0ms waiting for transaction
+  0ms request delay
+  3740ms running transaction
+  0ms transaction was being locked
+  0ms flushing data (in ordered mode)
+  0ms logging transaction
+  6574us average transaction commit time
+  1196 handles per transaction
+  20 blocks per transaction
+  21 logged blocks per transaction

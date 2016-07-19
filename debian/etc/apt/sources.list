@@ -1,0 +1,5 @@
+-rw-r--r-- 1 root root 161 Jun 8 16:29 etc/apt/sources.list
+
+deb http://httpredir.debian.org/debian jessie main
+deb http://httpredir.debian.org/debian jessie-updates main
+deb http://security.debian.org jessie/updates main

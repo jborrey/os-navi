@@ -1,0 +1,15 @@
+-rw-r--r-- 1 root root 309 Jun 8 16:28 var/lib/dpkg/info/e2fslibs:amd64.list
+
+/.
+/lib
+/lib/x86_64-linux-gnu
+/lib/x86_64-linux-gnu/libe2p.so.2.3
+/lib/x86_64-linux-gnu/libext2fs.so.2.4
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/e2fslibs
+/usr/share/doc/e2fslibs/changelog.Debian.gz
+/usr/share/doc/e2fslibs/copyright
+/lib/x86_64-linux-gnu/libe2p.so.2
+/lib/x86_64-linux-gnu/libext2fs.so.2

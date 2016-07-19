@@ -1,0 +1,4 @@
+-rw-r--r-- 1 root root 73 Mar 29 2015 var/lib/dpkg/info/libblkid1:amd64.shlibs
+
+libblkid 1 libblkid1 (>= 2.25)
+udeb: libblkid 1 libblkid1-udeb (>= 2.25)

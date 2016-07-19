@@ -1,0 +1,5 @@
+-rw-r--r-- 1 root root 4096 Jul 19 06:52 sys/devices/pnp0/00:01/resources
+
+state = active
+io 0x3f8-0x3ff
+irq 4

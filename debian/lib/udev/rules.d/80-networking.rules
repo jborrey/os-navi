@@ -1,0 +1,6 @@
+-rw-r--r-- 1 root root 82 Mar 12 12:46 lib/udev/rules.d/80-networking.rules
+
+SUBSYSTEM=="net",			RUN+="net.agent"
+
+SUBSYSTEM=="atm",			RUN+="dsl-modem.agent"
+

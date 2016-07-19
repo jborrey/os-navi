@@ -1,0 +1,4 @@
+-rw-r--r-- 1 root root 61 Oct 21 2014 var/lib/dpkg/info/libusb-0.1-4:amd64.shlibs
+
+libusb-0.1 4 libusb-0.1-4
+udeb: libusb-0.1 4 libusb-0.1-udeb

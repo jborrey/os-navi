@@ -1,0 +1,3 @@
+-r--r--r-- 1 root root 0 Jul 19 08:47 proc/cmdline
+
+earlyprintk=serial console=ttyS0 com.docker.driverDir="/Users/jborrey/Library/Containers/com.docker.docker/Data/com.docker.driver.amd64-linux", com.docker.database="com.docker.driver.amd64-linux" ntp=gateway

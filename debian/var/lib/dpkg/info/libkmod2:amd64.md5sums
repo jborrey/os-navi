@@ -1,0 +1,6 @@
+-rw-r--r-- 1 root root 286 Sep 27 2014 var/lib/dpkg/info/libkmod2:amd64.md5sums
+
+520d9dc7e02d0f72b03611b8a7f15332  lib/x86_64-linux-gnu/libkmod.so.2.2.8
+31067937fea0f012c9f4bdcc163ea507  usr/share/doc/libkmod2/changelog.Debian.gz
+0d386ea03e841d37b138eb7485f58324  usr/share/doc/libkmod2/changelog.gz
+d892d3eed17188efab9d3977faef865d  usr/share/doc/libkmod2/copyright

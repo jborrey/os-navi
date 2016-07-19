@@ -1,0 +1,13 @@
+-rw-r--r-- 1 root root 252 Jun 8 16:28 var/lib/dpkg/info/libsystemd0:amd64.list
+
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libsystemd0
+/usr/share/doc/libsystemd0/copyright
+/usr/share/doc/libsystemd0/changelog.Debian.gz
+/lib
+/lib/x86_64-linux-gnu
+/lib/x86_64-linux-gnu/libsystemd.so.0.3.1
+/lib/x86_64-linux-gnu/libsystemd.so.0

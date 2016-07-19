@@ -1,0 +1,5 @@
+-rwxr-xr-x 1 root root 29 Feb 14 2015 bin/fgrep
+
+#!/bin/sh
+
+exec grep -F "$@"

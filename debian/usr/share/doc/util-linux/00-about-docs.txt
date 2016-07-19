@@ -1,0 +1,9 @@
+-rw-r--r-- 1 root root 260 Feb 27 2013 usr/share/doc/util-linux/00-about-docs.txt
+
+What is here
+------------
+
+The util-linux contains supplementary textual material, such as
+readme files, release notes, licenses and so on. Common to these
+files is that they contain information for contributors but
+should not end up to end user installation.

@@ -1,0 +1,23 @@
+-rw-r--r-- 1 root root 524 Jun 8 16:29 var/lib/dpkg/info/inetutils-ping.list
+
+/.
+/usr
+/usr/share
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/inetutils-ping
+/usr/share/man
+/usr/share/man/man1
+/usr/share/man/man1/ping6.1.gz
+/usr/share/man/man1/ping.1.gz
+/usr/share/doc
+/usr/share/doc/inetutils-ping
+/usr/share/doc/inetutils-ping/NEWS.gz
+/usr/share/doc/inetutils-ping/changelog.Debian.gz
+/usr/share/doc/inetutils-ping/changelog.gz
+/usr/share/doc/inetutils-ping/copyright
+/usr/share/doc/inetutils-ping/THANKS
+/usr/share/doc/inetutils-ping/AUTHORS
+/bin
+/bin/ping
+/bin/ping6

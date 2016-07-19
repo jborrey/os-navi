@@ -1,0 +1,8 @@
+-rw-r--r-- 1 root root 259 Jun 8 16:29 etc/dpkg/dpkg.cfg.d/docker-apt-speedup
+
+# For most Docker users, package installs happen during "docker build", which
+# doesn't survive power loss and gets restarted clean afterwards anyhow, so
+# this minor tweak gives us a nice speedup (much nicer on spinning disks,
+# obviously).
+
+force-unsafe-io

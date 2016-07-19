@@ -1,0 +1,9 @@
+-rwxr-xr-x 1 root root 132 Feb 25 2015 var/lib/dpkg/info/e2fslibs:amd64.postrm
+
+#!/bin/sh
+set -e
+# Automatically added by dh_makeshlibs
+if [ "$1" = "remove" ]; then
+	ldconfig
+fi
+# End automatically added section

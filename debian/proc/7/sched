@@ -1,0 +1,19 @@
+-rw-r--r-- 1 root root 0 Jul 19 08:46 proc/7/sched
+
+tee (18212, #threads: 1)
+-------------------------------------------------------------------
+se.exec_start                                :     304504130.960463
+se.vruntime                                  :         27817.232552
+se.sum_exec_runtime                          :           262.019785
+nr_switches                                  :                15103
+nr_voluntary_switches                        :                 7170
+nr_involuntary_switches                      :                 7933
+se.load.weight                               :                 1024
+se.avg.load_sum                              :              3514123
+se.avg.util_sum                              :               179441
+se.avg.load_avg                              :                   73
+se.avg.util_avg                              :                    3
+se.avg.last_update_time                      :      304504130960463
+policy                                       :                    0
+prio                                         :                  120
+clock-delta                                  :                   33

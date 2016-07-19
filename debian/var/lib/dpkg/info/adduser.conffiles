@@ -1,0 +1,3 @@
+-rw-r--r-- 1 root root 18 May 15 2012 var/lib/dpkg/info/adduser.conffiles
+
+/etc/deluser.conf

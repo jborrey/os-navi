@@ -1,0 +1,9 @@
+-rwxr-xr-x 1 root root 135 Sep 27 2014 var/lib/dpkg/info/libkmod2:amd64.postinst
+
+#!/bin/sh
+set -e
+# Automatically added by dh_makeshlibs
+if [ "$1" = "configure" ]; then
+	ldconfig
+fi
+# End automatically added section

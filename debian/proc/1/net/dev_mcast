@@ -1,0 +1,5 @@
+-r--r--r-- 1 root root 0 Jul 19 08:47 proc/1/net/dev_mcast
+
+107  eth0            1     0     333300000001
+107  eth0            1     0     01005e000001
+107  eth0            1     0     3333ff110002

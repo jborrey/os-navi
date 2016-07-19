@@ -1,0 +1,25 @@
+-rwxr-xr-x 1 root root 472 Dec 9 2014 var/lib/dpkg/info/libncurses5:amd64.postinst
+
+#! /bin/sh
+set -e
+
+PACKAGE=libncurses5
+
+if dpkg --compare-versions "$2" lt-nl 5.9-7; then
+    # Replace directory with symlink.
+    if [ ! -L /usr/share/doc/$PACKAGE ] && \
+	[ -d /usr/share/doc/$PACKAGE ]; then
+        if rmdir /usr/share/doc/$PACKAGE 2>/dev/null; then
+            ln -sf libtinfo5 /usr/share/doc/$PACKAGE
+        fi
+    fi
+fi
+
+# Automatically added by dh_makeshlibs
+if [ "$1" = "configure" ]; then
+	ldconfig
+fi
+# End automatically added section
+
+
+exit 0

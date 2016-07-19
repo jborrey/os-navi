@@ -1,0 +1,7 @@
+-rw-r--r-- 1 root root 275 Mar 5 2008 usr/share/doc/libustr-1.0-1/THANKS
+
+ Karl MacMillan - For bouncing ideas off of early on, and finally pushing me into
+                  wasting my time writing ustr ;).
+
+ Rik Faith - For help making sure it worked on "legacy OSes".
+ Václav Ovsík <vaclav.ovsik@i.cz> - Debian packaging and cleanups/bug fixes.

@@ -1,0 +1,7 @@
+-rw-r--r-- 1 root root 143 Mar 29 2015 etc/pam.d/runuser
+
+#%PAM-1.0
+auth		sufficient	pam_rootok.so
+session		optional	pam_keyinit.so revoke
+session		required	pam_limits.so
+session		required	pam_unix.so

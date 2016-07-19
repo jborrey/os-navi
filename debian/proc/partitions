@@ -1,0 +1,7 @@
+-r--r--r-- 1 root root 0 Jul 19 08:47 proc/partitions
+
+major minor  #blocks  name
+
+ 254        0   67108864 vda
+ 254        1    4097024 vda1
+ 254        2   63010816 vda2

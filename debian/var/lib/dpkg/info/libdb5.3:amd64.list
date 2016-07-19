@@ -1,0 +1,16 @@
+-rw-r--r-- 1 root root 346 Jun 8 16:28 var/lib/dpkg/info/libdb5.3:amd64.list
+
+/.
+/usr
+/usr/share
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libdb5.3
+/usr/share/doc
+/usr/share/doc/libdb5.3
+/usr/share/doc/libdb5.3/changelog.Debian.gz
+/usr/share/doc/libdb5.3/build_signature_amd64.txt
+/usr/share/doc/libdb5.3/copyright
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libdb-5.3.so

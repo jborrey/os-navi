@@ -1,0 +1,5 @@
+-rwxr-xr-x 1 root root 106 Jan 21 17:04 usr/sbin/tzconfig
+
+#!/bin/sh
+echo "WARNING: the tzconfig command is deprecated, please use:"
+echo " dpkg-reconfigure tzdata"

@@ -1,0 +1,10 @@
+lrwxrwxrwx 1 root root 21 May 30 04:18 etc/os-release -> ../usr/lib/os-release
+
+PRETTY_NAME="Debian GNU/Linux 8 (jessie)"
+NAME="Debian GNU/Linux"
+VERSION_ID="8"
+VERSION="8 (jessie)"
+ID=debian
+HOME_URL="http://www.debian.org/"
+SUPPORT_URL="http://www.debian.org/support"
+BUG_REPORT_URL="https://bugs.debian.org/"

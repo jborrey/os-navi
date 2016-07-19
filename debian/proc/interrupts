@@ -1,0 +1,35 @@
+-r--r--r-- 1 root root 0 Jul 19 08:47 proc/interrupts
+
+           CPU0       CPU1       
+  0:         27          0   IO-APIC   2-edge      timer
+  4:        434          0   IO-APIC   4-edge      serial
+  8:          1          0   IO-APIC   8-edge      rtc0
+  9:          0          0   IO-APIC   9-fasteoi   acpi
+ 24:          0          0   PCI-MSI 81920-edge      virtio3-config
+ 25:     327928          0   PCI-MSI 81921-edge      virtio3-input
+ 26:          0          0   PCI-MSI 49152-edge      virtio1-config
+ 27:     278111          0   PCI-MSI 49153-edge      virtio1-req.0
+ 28:          0          0   PCI-MSI 32768-edge      virtio0-config
+ 29:     907182          0   PCI-MSI 32769-edge      virtio0-input.0
+ 30:          1          0   PCI-MSI 32770-edge      virtio0-output.0
+ 31:          0          0   PCI-MSI 65536-edge      virtio2-config
+ 32:       9361          0   PCI-MSI 65537-edge      virtio2-requests
+ 33:          0          0   PCI-MSI 98304-edge      virtio4-config
+ 34:        366          0   PCI-MSI 98305-edge      virtio4-requests
+ 35:          0          0   PCI-MSI 114688-edge      virtio5-config
+ 36:    5937589          0   PCI-MSI 114689-edge      virtio5-rx
+ 37:    6556716          0   PCI-MSI 114690-edge      virtio5-tx
+ 38:          0          0   PCI-MSI 114691-edge      virtio5-event
+NMI:          0          0   Non-maskable interrupts
+LOC:    7525502    8464668   Local timer interrupts
+SPU:          0          0   Spurious interrupts
+PMI:          0          0   Performance monitoring interrupts
+IWI:         12         23   IRQ work interrupts
+RTR:          0          0   APIC ICR read retries
+RES:    2043442    5758973   Rescheduling interrupts
+CAL:        181     191365   Function call interrupts
+TLB:     112285      83010   TLB shootdowns
+ERR:          0
+MIS:          0
+PIN:          0          0   Posted-interrupt notification event
+PIW:          0          0   Posted-interrupt wakeup event
